@@ -15,7 +15,7 @@ from typing import TypedDict
 from google import genai
 from langgraph.graph import END, START, StateGraph
 
-GEMINI_API_KEY = "AIzaSyA2uEUB7zV0cZT_ec9xy8K1tur2rPc_mjY"
+GEMINI_API_KEY = "PUt YOur api key here"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 GEMINI_MODEL = "gemini-2.5-flash"
